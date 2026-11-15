@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+outputs/
+
+skills/*/config.json
+!core/config.json
+.DS_Store
