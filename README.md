@@ -4,6 +4,14 @@
 
 由 [New.bi](https://api.new.bi) 提供，专业、稳定、可靠的大模型聚合中转平台。
 
+## 交给 AI 安装
+
+把下面这句直接发给 agent，它会完成下载、解压、鉴权和执行：
+
+```text
+安装并使用 New.bi 综合技能：下载 https://pub-817cae131e2b4e0a8ce0a9f8bac75462.r2.dev/down/ai-gateway-skills.zip，解压后进入 ai-gateway 目录运行 python3 core/gateway.py login --key <你的密钥>，再运行 doctor 确认，然后用同一个入口完成图片、视频、音乐、语音和决策。
+```
+
 一套覆盖图片、视频、音乐、语音、决策的技能。网关对外是 OpenAI 风格接口，背后接 GPT-Image、Gemini / Nano Banana、Seedream、Seedance、Veo、Sora、Kling、Suno、Lyria、ElevenLabs 等厂商。所有能力共用一个 `core/gateway.py`，凭据、模型列表、轮询、落盘只写一次。
 
 命令都在仓库根目录执行。Python 3.9 及以上。
