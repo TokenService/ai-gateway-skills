@@ -4,6 +4,14 @@
 
 Provided by [New.bi](https://api.new.bi), a professional, stable, and reliable AI model aggregation gateway.
 
+## Install with an agent
+
+Send this line to an agent. It downloads, unpacks, authenticates and runs the tool:
+
+```text
+Install and use the New.bi gateway skills: download https://pub-817cae131e2b4e0a8ce0a9f8bac75462.r2.dev/down/ai-gateway-skills.zip, unpack it, run python3 core/gateway.py login --key <your key> from inside the ai-gateway directory, confirm with doctor, then use the same entry point for image, video, music, speech and decisions.
+```
+
 Agent skills for image, video, music, speech, and decisions. The gateway speaks an OpenAI-style API and fronts GPT-Image, Gemini / Nano Banana, Seedream, Seedance, Veo, Sora, Kling, Suno, Lyria, and ElevenLabs. All capabilities share `core/gateway.py`, so credentials, model listing, polling, and file output are implemented once.
 
 Run every command from the repository root. Python 3.9 or newer.
